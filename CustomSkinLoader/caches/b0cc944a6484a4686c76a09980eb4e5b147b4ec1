@@ -1,9 +1,0 @@
-{
-  "id" : "c5686d66a2a4435b908294dca7b6e8d9",
-  "name" : "YukihareNya",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcxNDAwOTkxNDUxMiwKICAicHJvZmlsZUlkIiA6ICJjNTY4NmQ2NmEyYTQ0MzViOTA4Mjk0ZGNhN2I2ZThkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJZdWtpaGFyZU55YSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWZmZjI1ZDY2NzIwNmYyZTQ2ZDQ0MmNmMzU4YjNmMWVjMzYxMzgzOTE3NTFiYTZlZGY5NjVmZmM4M2I4NjAzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
-  } ],
-  "profileActions" : [ ]
-}

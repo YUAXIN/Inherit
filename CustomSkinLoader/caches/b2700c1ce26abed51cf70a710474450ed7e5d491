@@ -1,9 +1,0 @@
-{
-  "id" : "4b2ae6cace5c403c86dd48767f138995",
-  "name" : "YeziMoan",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcxNDAwODgyMzI3MiwKICAicHJvZmlsZUlkIiA6ICI0YjJhZTZjYWNlNWM0MDNjODZkZDQ4NzY3ZjEzODk5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZXppTW9hbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YThhZTE3MjJiNDNjMmIyNWU5MWU5ZjI5ZWIwNzhhMTJlMWQ1OGNjZTY1ZTgyZWMxODA5NjRjYjc1OTQ4MzdiIgogICAgfQogIH0KfQ=="
-  } ],
-  "profileActions" : [ ]
-}

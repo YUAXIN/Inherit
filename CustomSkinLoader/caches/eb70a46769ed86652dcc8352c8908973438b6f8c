@@ -1,9 +1,0 @@
-{
-  "id" : "3f43da60c72d41b68132c2cfc168bc93",
-  "name" : "Moshede",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcxNDAwODg5NTY0MiwKICAicHJvZmlsZUlkIiA6ICIzZjQzZGE2MGM3MmQ0MWI2ODEzMmMyY2ZjMTY4YmM5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3NoZWRlIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiMmZlZWI3OGQ4YTgwODAyZjdmNmFmYjgzMThjM2I3ZmIxODRlYzVlMjc4NjMyOWY0MjhiOWNhZDEzNjQ0ZGQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
-  } ],
-  "profileActions" : [ ]
-}
