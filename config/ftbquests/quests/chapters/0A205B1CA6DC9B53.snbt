@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0A205B1CA6DC9B53"
+	group: "33C9980488C9A5D6"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:soul_stone"
+	}
+	id: "0A205B1CA6DC9B53"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"00470FC08FEA9625"
+				"741847035DF93790"
+				"04C73E5D4F8CBFCD"
+			]
+			description: ["激活灵魂嬗变的必需品"]
+			id: "4685CBD66BFC54C9"
+			tasks: [{
+				id: "3F930C890C7D1C79"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -33.5d
+			y: -19.0d
+		}
+		{
+			id: "04C73E5D4F8CBFCD"
+			tasks: [{
+				id: "4D29511E8DF79330"
+				title: "第一阶段"
+				type: "checkmark"
+			}]
+			x: -33.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			description: ["发电好帮手"]
+			id: "7BD63BD2614DFD6F"
+			rewards: [{
+				count: 8
+				id: "1300797A73EEEBA9"
+				item: "malum:arcane_charcoal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "667F7E0EEB775FCD"
+				item: "malum:arcane_charcoal"
+				type: "item"
+			}]
+			x: -32.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			description: ["一直用合金炉也不是个事情，来点更简单的方法"]
+			id: "58DFBF80ECA57249"
+			tasks: [{
+				id: "0625D416DAEA7600"
+				item: "projecte:alchemical_coal_block"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			id: "7B9F4D5ECD358290"
+			rewards: [
+				{
+					count: 8
+					id: "2A22926842B5553A"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3B8357566D732145"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "037DDDF08DB7E051"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "384E8975BB081AFE"
+					item: {
+						Count: 1b
+						id: "laserio:filter_count"
+						tag: {
+							counts: [
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 0
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 1
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 2
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 3
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 4
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 5
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 6
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 7
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 8
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 9
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 10
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 11
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 12
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 13
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 14
+								}
+							]
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C73CAB12CE36A62"
+					item: "laserio:logic_chip_raw"
+					type: "item"
+				}
+				{
+					id: "315562A41822D1A9"
+					item: "laserio:logic_chip"
+					type: "item"
+				}
+			]
+			x: -32.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			id: "3DF6B82401016B44"
+			tasks: [{
+				id: "76319E8F8FB5466B"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			description: ["做个强化的"]
+			id: "68425C866D38795B"
+			rewards: [{
+				id: "6DB5F2ECD229602A"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FC76015A9749386"
+				item: "immersiveengineering:blastbrick_reinforced"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			id: "73323C00C8455A26"
+			tasks: [{
+				id: "6D13BE2C66C16AA2"
+				item: {
+					Count: 1b
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			id: "5C6B0DC961C7E022"
+			tasks: [{
+				id: "1DD4B518399157F7"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -20.0d
+		}
+		{
+			id: "7808A078747D6176"
+			tasks: [{
+				id: "20249504210F54CD"
+				title: "第二阶段"
+				type: "checkmark"
+			}]
+			x: -29.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["7808A078747D6176"]
+			id: "17C55BD08A50E3B9"
+			tasks: [{
+				id: "723A56EEFFD9C268"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			id: "2E53E837BAB043F1"
+			tasks: [
+				{
+					id: "169FC03B2897E203"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "58E764EB6EB1A132"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "7FE538C980F3169F"
+					item: "mekanism:ultimate_fluid_tank"
+					type: "item"
+				}
+			]
+			x: -34.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["04C73E5D4F8CBFCD"]
+			id: "2E8CE395F48850B2"
+			tasks: [{
+				id: "7F87F92370036A45"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -17.0d
+		}
+	]
+	title: "灵魂之身可以接触的物品"
+}

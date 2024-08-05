@@ -1,0 +1,110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2C584CA3A400FB37"
+	group: "33C9980488C9A5D6"
+	id: "2C584CA3A400FB37"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"本作唯一指定食品供销商（星星是猪）"
+				"b站：弈尘星"
+				"UID:316577254"
+			]
+			id: "4B6316532247EBAB"
+			rewards: [{
+				id: "7961CA6D44A4F7E2"
+				item: "kubejs:xx"
+				type: "item"
+			}]
+			tasks: [{
+				id: "493923C205F1959F"
+				type: "checkmark"
+			}]
+			title: "星星"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"是笨蛋奈老师"
+				"b站：花崎奈子w"
+				"UID:3033903"
+			]
+			id: "46B2D4C21B882A47"
+			tasks: [{
+				id: "073FEA8DF0FCB57F"
+				item: "kubejs:huaqinaizi"
+				type: "item"
+			}]
+			title: "奈奈子"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"采访时，据莫老师所言：“我是个废物'"
+				"DSB空岛和SMM空岛作者"
+				"b站名称：莫舍得 uid:8731570"
+				"猫猫子？那是什么？"
+			]
+			id: "68701954012FBC1D"
+			rewards: [{
+				id: "70328CA643CD43E8"
+				item: "kubejs:maomaozi"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EED124085E0B383"
+				item: "kubejs:moshede"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"机械动力的神！CTC,ANTE,CDP作者"
+				"B站名称：是个龙啸呀"
+				"UID：45102800"
+			]
+			id: "2F8E26D3AF1B77F7"
+			tasks: [{
+				id: "7E6570A5E7B4B505"
+				item: "kubejs:xiao"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			description: ["物品材质提供者：川"]
+			id: "0AE045D966A7644B"
+			tasks: [{
+				id: "059C064BC9DE115E"
+				item: "kubejs:chuan"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"emc手机移植者"
+				"同时是一个没有梦想的咸鱼"
+			]
+			id: "50AC9C26D73A3DDB"
+			tasks: [{
+				id: "53617B6C2D95C2B0"
+				item: "kubejs:fish"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+	]
+	title: "纪念品"
+}

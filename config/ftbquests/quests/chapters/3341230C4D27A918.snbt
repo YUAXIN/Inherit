@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3341230C4D27A918"
+	group: "33C9980488C9A5D6"
+	icon: "ae2:controller"
+	id: "3341230C4D27A918"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38244ED6E95D8643"]
+			id: "1D49E7ED4CCDD79A"
+			tasks: [{
+				id: "3CA19322CA96B650"
+				item: "ae2:logic_processor_press"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["38244ED6E95D8643"]
+			id: "109E440903C0F529"
+			tasks: [{
+				id: "739B2557136E6BD3"
+				item: "ae2:engineering_processor_press"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["38244ED6E95D8643"]
+			id: "462977B2F877B257"
+			tasks: [{
+				id: "41D8B0ACAD81A4ED"
+				item: "ae2:silicon_press"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["38244ED6E95D8643"]
+			id: "4E7FA8EF425E534C"
+			tasks: [{
+				id: "136864169D487AA6"
+				item: "ae2:calculation_processor_press"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1D49E7ED4CCDD79A"]
+			id: "0C26A538CE76B795"
+			tasks: [{
+				id: "69CB12277174A5A3"
+				item: "ae2:printed_logic_processor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["109E440903C0F529"]
+			id: "20961C60B853C479"
+			tasks: [{
+				id: "27522E3B1565BDAF"
+				item: "ae2:printed_engineering_processor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["462977B2F877B257"]
+			id: "3A2692A8DA0ABC3C"
+			tasks: [{
+				id: "67368C8AD933494D"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4E7FA8EF425E534C"]
+			id: "55C6A4DDAE9013B2"
+			tasks: [{
+				id: "5AF3EBD0BB2113AF"
+				item: "ae2:printed_calculation_processor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			id: "38244ED6E95D8643"
+			tasks: [{
+				id: "4592961EB4568618"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["413F377BFA05807F"]
+			description: ["虽然存储量不大，做起来也麻烦，但是它可以做精妙的箱子"]
+			id: "06FBDFAB12B602BB"
+			tasks: [{
+				id: "4B7C3D456D2BCB88"
+				item: "immersiveengineering:wooden_barrel"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["06FBDFAB12B602BB"]
+			id: "68C996DAD6BDE63A"
+			tasks: [{
+				id: "68A770CA641D5994"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5D9C3E0112B5C718"]
+			id: "723228EA8FD334BD"
+			tasks: [
+				{
+					id: "78113D02AE88104D"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "7980EBB1CC164006"
+					item: "functionalstorage:oak_2"
+					type: "item"
+				}
+				{
+					id: "70244C1C881CD26B"
+					item: "functionalstorage:oak_4"
+					type: "item"
+				}
+			]
+			title: "抽屉"
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["723228EA8FD334BD"]
+			id: "1327E123C0D1FDC3"
+			tasks: [
+				{
+					id: "333FAA7DCDC80FB2"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "738604FAF7E0E56E"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "629D60E997C3914C"
+					item: "functionalstorage:diamond_upgrade"
+					type: "item"
+				}
+				{
+					id: "1DA61A347AD06B66"
+					item: "functionalstorage:netherite_upgrade"
+					type: "item"
+				}
+			]
+			title: "容量升级"
+			x: -7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["723228EA8FD334BD"]
+			id: "1109E660822982ED"
+			tasks: [
+				{
+					id: "7B613FC325E560FA"
+					item: {
+						Count: 1b
+						id: "functionalstorage:pusher_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13C7BB165DF54776"
+					item: {
+						Count: 1b
+						id: "functionalstorage:puller_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "165F8CE0C4A884D3"
+					item: {
+						Count: 1b
+						id: "functionalstorage:collector_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "传输升级"
+			x: -4.0d
+			y: -13.5d
+		}
+		{
+			id: "641520066C9B731D"
+			tasks: [{
+				id: "10DE2525DBA1DB54"
+				item: "kubejs:controller_casing"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -10.0d
+		}
+	]
+	title: "大箱子还是自动化？"
+}

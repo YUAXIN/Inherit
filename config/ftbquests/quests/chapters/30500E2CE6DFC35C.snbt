@@ -1,0 +1,602 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "30500E2CE6DFC35C"
+	group: "4B00EFE0D2CEE57F"
+	icon: "evilcraft:blood_infusion_core"
+	id: "30500E2CE6DFC35C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4F3C1C2487B94BBC"]
+			id: "366DCC8117581F82"
+			tasks: [{
+				id: "4CBFD59768BB202C"
+				item: "evilcraft:dark_gem"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["19352A161AB48162"]
+			id: "537B45F483A61A32"
+			tasks: [{
+				id: "5D242B29772D23D3"
+				item: "mysticalagriculture:mystical_flower_essence"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"784FE8491C944B80"
+				"02CDA8CE59302A1B"
+			]
+			id: "19352A161AB48162"
+			tasks: [{
+				id: "47845A0632377A65"
+				item: "kubejs:no_petal"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["537B45F483A61A32"]
+			id: "74CFDAA59F500A05"
+			tasks: [{
+				id: "14C89B48F6DB75CC"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74CFDAA59F500A05"]
+			id: "4F3C1C2487B94BBC"
+			tasks: [{
+				id: "3854A27DF0FB7AF1"
+				item: "evilcraft:dark_gem_crushed"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["36FEBE470E2BC5DF"]
+			description: ["在前往末地之前只有感应炉获取"]
+			id: "1A7402DB357389B7"
+			tasks: [{
+				id: "09EDDB551826CEB2"
+				item: {
+					Count: 1b
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1A7402DB357389B7"
+				"7C5A12082D863FBF"
+			]
+			id: "22C6EB1A51584D93"
+			tasks: [{
+				id: "600C7B7DDC7B092C"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["366DCC8117581F82"]
+			id: "7C5A12082D863FBF"
+			tasks: [{
+				id: "1CC3DB66DE7F4135"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7C5A12082D863FBF"]
+			id: "102338FD543F36A2"
+			optional: true
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "08D7F0369396B0E0"
+				type: "dimension"
+			}]
+			title: "屠龙勇士"
+			x: -19.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["102338FD543F36A2"]
+			id: "5480ACF9E64458C9"
+			tasks: [{
+				id: "6A7DED22E1A178B7"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"670EAA16FD6BC51D"
+				"28B104D08EDC282F"
+			]
+			id: "5DFB34390AECCD5E"
+			tasks: [{
+				id: "50E333AEF30468C3"
+				item: "projectexpansion:white_matter"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5DFB34390AECCD5E"]
+			id: "28D93EFD0CCD2BAA"
+			tasks: [{
+				id: "4D829B88D032AE46"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B73D62CDF23BB57"]
+			id: "670EAA16FD6BC51D"
+			tasks: [{
+				id: "2B2F1E8E48EB111A"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["22C6EB1A51584D93"]
+			id: "16D1E0475FE08AE4"
+			tasks: [{
+				id: "409A6AFC8B3BC591"
+				item: "occultism:chalk_purple"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["16D1E0475FE08AE4"]
+			id: "28B104D08EDC282F"
+			tasks: [{
+				id: "045F0198B642B050"
+				title: "仪式：斯特里格高等束缚"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["28D93EFD0CCD2BAA"]
+			id: "34AA05AAFB85DD38"
+			tasks: [{
+				id: "5023419DABDEF430"
+				item: "immersiveengineering:insulating_glass"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["34AA05AAFB85DD38"]
+			id: "18C0B31ABF36249B"
+			tasks: [{
+				id: "7C1FCF4510429653"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"366DCC8117581F82"
+				"6EDDAE96E5AFE923"
+			]
+			id: "0A31E63DD5C7676E"
+			tasks: [{
+				id: "6258253556A444F9"
+				item: "evilcraft:dark_power_gem"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18C0B31ABF36249B"]
+			id: "795A9CFD6C166B57"
+			tasks: [
+				{
+					id: "6AEE1E9215533B6F"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					id: "2FC7E192840B9CDD"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3DE83E87D5215766"
+				"6EDDAE96E5AFE923"
+			]
+			id: "4F5D581A4E6BC2DF"
+			tasks: [{
+				id: "0BCF1F3821454BEE"
+				item: "thermal_extra:dragonsteel_ingot"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["795A9CFD6C166B57"]
+			id: "6EDDAE96E5AFE923"
+			tasks: [{
+				id: "68DAE8747C67CE80"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22C6EB1A51584D93"]
+			id: "3DE83E87D5215766"
+			tasks: [{
+				id: "36FC4DFD073F2DC1"
+				item: "moremekanismprocessing:draconium_ingot"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1859DE225C5B5112"
+				"1DF1CA53A6A396E6"
+			]
+			id: "31EA9CCB72C82FB4"
+			tasks: [{
+				id: "333B577B52CEA52C"
+				item: "evilcraft:hardened_blood"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["31EA9CCB72C82FB4"]
+			id: "78F66B32AAD4D99B"
+			tasks: [{
+				id: "3D35D17188F4B89E"
+				item: "evilcraft:hardened_blood_shard"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"78F66B32AAD4D99B"
+				"0A31E63DD5C7676E"
+			]
+			id: "7DE099932E23FDF0"
+			tasks: [{
+				id: "5372EBA12F6B4A06"
+				item: "evilcraft:blood_infusion_core"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"35E3B0F2B8ED9E83"
+				"62004A1169DC142D"
+				"2AF4EB161E0F422D"
+			]
+			id: "00F1C5CD51F8AF28"
+			tasks: [{
+				id: "209486294F295489"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57976BEDB528C9BF"]
+			id: "1DF1CA53A6A396E6"
+			tasks: [{
+				id: "1C46BC2C3186E5D1"
+				item: "integrateddynamics:drying_basin"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7DE099932E23FDF0"]
+			id: "6A53FF4BEB2D015B"
+			tasks: [{
+				id: "230BA6952A116E26"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:blood_infuser"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 10000
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6A53FF4BEB2D015B"]
+			id: "3C99B222329C743D"
+			tasks: [{
+				id: "59FAEF794E08E535"
+				item: "evilcraft:promise_acceptor_iron"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A53FF4BEB2D015B"]
+			id: "534B7363BCE7C317"
+			tasks: [{
+				id: "240586B61EC86BFE"
+				item: "evilcraft:promise_acceptor_gold"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A53FF4BEB2D015B"]
+			id: "288EC48CA5FF1747"
+			tasks: [{
+				id: "1E1B8AF9D1B76032"
+				item: "evilcraft:promise_acceptor_diamond"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3C99B222329C743D"
+				"795A9CFD6C166B57"
+			]
+			id: "62004A1169DC142D"
+			tasks: [{
+				id: "1063B38929562387"
+				item: "powah:blazing_crystal_block"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"534B7363BCE7C317"
+				"795A9CFD6C166B57"
+			]
+			id: "2AF4EB161E0F422D"
+			tasks: [{
+				id: "314220BA03C36FAF"
+				item: "powah:niotic_crystal_block"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"288EC48CA5FF1747"
+				"795A9CFD6C166B57"
+			]
+			id: "35E3B0F2B8ED9E83"
+			tasks: [{
+				id: "2817E2C2C73D646C"
+				item: "powah:spirited_crystal_block"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["00F1C5CD51F8AF28"]
+			id: "04F5F21815D600E0"
+			tasks: [
+				{
+					id: "6900E90C41871DAB"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+				{
+					id: "0428667B5ED560DD"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+			]
+			title: "祭祀诸神"
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"04F5F21815D600E0"
+				"00F1C5CD51F8AF28"
+			]
+			id: "0697C2358428B131"
+			tasks: [{
+				id: "1C717DBEDF751AF1"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00F1C5CD51F8AF28"]
+			id: "19A33EFA33490513"
+			tasks: [{
+				id: "7B14E2644007B2C3"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0697C2358428B131"]
+			description: ["蛋是苹果变得，那苹果拿来呢"]
+			id: "4B89743413D99A6C"
+			rewards: [
+				{
+					count: 64
+					id: "6851A0A61CD7D63F"
+					item: "mob_grinding_utils:fan"
+					type: "item"
+				}
+				{
+					id: "515387ACF5416DE1"
+					item: "mob_grinding_utils:saw"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "14A91A03E08F9C0A"
+					item: "mob_grinding_utils:saw_upgrade_sharpness"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "08F4A3A8E652660B"
+					item: "mob_grinding_utils:saw_upgrade_looting"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "349A58F30F1E8FB0"
+					item: "mob_grinding_utils:saw_upgrade_beheading"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "066B64509CE4D6E4"
+				item: "minecraft:wither_skeleton_spawn_egg"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4B89743413D99A6C"
+				"19A33EFA33490513"
+			]
+			id: "152E46CCCA962DC8"
+			tasks: [
+				{
+					id: "5DB6B7102B274CE4"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "50F74869B7A7C92C"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["152E46CCCA962DC8"]
+			id: "1567DECCE0E7EE2A"
+			tasks: [{
+				id: "4945B60770DD882E"
+				title: "阿巴拉斯开环召唤术"
+				type: "checkmark"
+			}]
+			title: "阿巴拉斯召唤术"
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"288EC48CA5FF1747"
+				"6A53FF4BEB2D015B"
+			]
+			id: "1B03D9A7A1535795"
+			tasks: [{
+				id: "356723539F155F58"
+				item: "occultism:book_of_binding_afrit"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1B03D9A7A1535795"
+				"1567DECCE0E7EE2A"
+			]
+			id: "0A79043025DE2BA3"
+			tasks: [{
+				id: "6F9DC2C7FCF45B5C"
+				item: "occultism:afrit_essence"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.0d
+		}
+	]
+	title: "生与死"
+}

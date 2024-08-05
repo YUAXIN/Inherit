@@ -1,0 +1,714 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "69F7D2FD3C00BD3A"
+	group: "6B77C20D3C0D3C53"
+	icon: "ars_nouveau:imbuement_chamber"
+	id: "69F7D2FD3C00BD3A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B4D364A57BAFC45"]
+			id: "4AB22A03BA855FA7"
+			tasks: [{
+				id: "6209D779899BD7DD"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: -43.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["4AB22A03BA855FA7"]
+			description: ["先来做一个简易的冶炼炉吧"]
+			id: "114D7F154FAC11EF"
+			tasks: [
+				{
+					id: "04204786DBCD4916"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "00A429F1F52EEE2F"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "7CCAA28289465104"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "082052DB00C50902"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
+			x: -41.0d
+			y: -20.5d
+		}
+		{
+			dependencies: [
+				"114D7F154FAC11EF"
+				"454967D88B59B9F8"
+			]
+			description: ["砖泥融化后，将其灌注至炼金煤炭之上，便出现了焦煤"]
+			id: "03236853C043D4AE"
+			tasks: [{
+				id: "18C83C42ED00A14C"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["107CC8682B969560"]
+			description: ["灼烧之后的大地精魄与火焰产生了些许共鸣"]
+			id: "201B9D963B0CB84A"
+			tasks: [{
+				id: "435481B9044D8A17"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			x: -43.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["201B9D963B0CB84A"]
+			description: ["虽然用合金炉的方法与炼金不太合，但是古人是这么叫它的"]
+			id: "454967D88B59B9F8"
+			tasks: [{
+				id: "77F456516185E554"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: -41.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["03236853C043D4AE"]
+			description: ["为了避免没有地方存流体，拿这个去存一下吧"]
+			id: "4D579589E33F24CD"
+			rewards: [{
+				id: "04294632CECCC6A2"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "2D5A67E6EE3B77BC"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["4D579589E33F24CD"]
+			description: ["一开始是1出1个来着，后来。。。嗯，就变成一个出一块了"]
+			id: "42CA62BAE8627774"
+			tasks: [
+				{
+					id: "1112388ECF1C9F2C"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+				{
+					id: "6CB58145A6EA5AD4"
+					item: "immersiveengineering:coke"
+					type: "item"
+				}
+			]
+			x: -38.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["03236853C043D4AE"]
+			id: "503BB201D48E4049"
+			tasks: [{
+				id: "0EFFAD0E5F6217D1"
+				item: "psi:ebony_substance"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -19.0d
+		}
+		{
+			dependencies: [
+				"503BB201D48E4049"
+				"42CA62BAE8627774"
+			]
+			id: "413F377BFA05807F"
+			tasks: [{
+				id: "1CA60B15BF83D5EF"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: -41.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"503BB201D48E4049"
+				"454967D88B59B9F8"
+			]
+			description: ["虽然他叫暗物质，实际上跟宇宙里面的那种一点关系没有"]
+			id: "0D7B4BEC3B52D912"
+			tasks: [{
+				id: "0ED49360C741DADB"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"0D7B4BEC3B52D912"
+				"413F377BFA05807F"
+			]
+			id: "35CBB3250042A2A8"
+			tasks: [{
+				id: "5D7229ADAFDCCD0A"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["68D6C24B3310B5BD"]
+			id: "0EC642D51455BD6D"
+			tasks: [{
+				id: "2B5780CD6C29296F"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -43.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0EC642D51455BD6D"]
+			id: "5FED057431928AE8"
+			rewards: [{
+				count: 3
+				id: "659F1DA9107D9433"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F83BE8943966377"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -41.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["201B9D963B0CB84A"]
+			description: ["psi能量灌注进精魄之中，改变了它的结构，由此，你得到了铜结点"]
+			id: "212074E9C87F7DAB"
+			tasks: [{
+				id: "3DFF5A4CBF2DCEC7"
+				item: "malum:copper_node"
+				type: "item"
+			}]
+			x: -43.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"413F377BFA05807F"
+				"35CBB3250042A2A8"
+			]
+			id: "7E7118CF4648C846"
+			rewards: [
+				{
+					id: "47E28E099776BEB3"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "module"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03C271E10E024059"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "blast"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0916835867A656CD"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7E7118CF4648C846"]
+			id: "34EA90CA808C49D9"
+			tasks: [{
+				id: "45AF3A74B2EA7D16"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: -41.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7E7118CF4648C846"]
+			id: "63D58599E70A8873"
+			tasks: [{
+				id: "0F8E24238653D592"
+				item: "kubejs:module_processor"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"212074E9C87F7DAB"
+				"34EA90CA808C49D9"
+			]
+			id: "68D6C24B3310B5BD"
+			tasks: [{
+				id: "720DAC0F2AD67AC6"
+				item: "mekanism:ingot_bronze"
+				type: "item"
+			}]
+			x: -43.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7E7118CF4648C846"]
+			id: "6EEB6B3F5EBECF3C"
+			tasks: [{
+				id: "02A9BC4D37BD417A"
+				item: "kubejs:blast_curnace_star"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"0D7B4BEC3B52D912"
+				"6EEB6B3F5EBECF3C"
+			]
+			description: ["如果你觉得一个高炉很慢，不妨多堆几个？"]
+			id: "08238C96712DEA9B"
+			rewards: [{
+				count: 27
+				id: "010D72358F9ADD41"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "65C04E5F24DEF8C5"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["63D58599E70A8873"]
+			id: "342FD56271474DEC"
+			tasks: [{
+				id: "5F4A0258AE08F7E6"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: -38.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["63D58599E70A8873"]
+			id: "6BFAE0F91DC3BBB9"
+			tasks: [{
+				id: "5694E1282B6DBD92"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["63D58599E70A8873"]
+			id: "4A525260621C707C"
+			tasks: [{
+				id: "4639C829C747C503"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0D7B4BEC3B52D912"]
+			id: "182AC1C8F86176F9"
+			tasks: [{
+				id: "4994432F5ABFC598"
+				item: "kubejs:hard_source"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["08238C96712DEA9B"]
+			id: "4B0FEB0799BF0736"
+			tasks: [{
+				id: "02B8476A828B848A"
+				item: "kubejs:crude_iron_ingot"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["182AC1C8F86176F9"]
+			id: "5718FFDA96C98435"
+			tasks: [{
+				id: "73DCF178FAFC2FC2"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["4B0FEB0799BF0736"]
+			id: "054B2059CF23FAF4"
+			tasks: [{
+				id: "5401606DF8181A37"
+				item: "mysticalagriculture:machine_frame"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["054B2059CF23FAF4"]
+			id: "77731AD832EC2285"
+			tasks: [{
+				id: "60A9C0E87D524DE2"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"5718FFDA96C98435"
+				"77731AD832EC2285"
+			]
+			id: "5900FE46207263D5"
+			tasks: [{
+				id: "66946C29C44EC817"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["054B2059CF23FAF4"]
+			id: "64A208BB9F5E7EB8"
+			rewards: [{
+				count: 3
+				id: "265E92C3643F16BA"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4464B0E97269F8EA"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["64A208BB9F5E7EB8"]
+			id: "70A63C64208C71B0"
+			tasks: [{
+				id: "2C5F6CBC6F0C0CFD"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: -32.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0EC642D51455BD6D"]
+			id: "615B42F011776490"
+			tasks: [{
+				id: "63FBD36FBD9B71F8"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -43.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"70A63C64208C71B0"
+				"5900FE46207263D5"
+			]
+			id: "78F08DD3242EA416"
+			tasks: [{
+				id: "2F8E3084EBCFC5D8"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["68D6C24B3310B5BD"]
+			id: "6C15B450AA079F21"
+			tasks: [{
+				id: "488D76EB47F467F9"
+				item: "mekanism:block_bronze"
+				type: "item"
+			}]
+			x: -44.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6C15B450AA079F21"]
+			description: ["无法破坏的斧子，懂？"]
+			id: "574E7CEB658E1EE8"
+			rewards: [
+				{
+					id: "513C95E9BFF5A455"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EAE90FB0DCC3EA0"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ADF055E9AA43653"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "300914479184049D"
+				item: "minecraft:oxidized_copper"
+				type: "item"
+			}]
+			x: -44.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"0EC642D51455BD6D"
+				"574E7CEB658E1EE8"
+			]
+			id: "00ABDE3F603C3F09"
+			tasks: [{
+				id: "47AB065F43ADD2AF"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -44.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"78F08DD3242EA416"
+				"5D69CEE252BF27B8"
+			]
+			description: ["温馨提示，铜块或许跟匠魂有关"]
+			id: "127C0CA090AF8583"
+			tasks: [{
+				id: "4F850BC4FBA479E5"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["054B2059CF23FAF4"]
+			description: ["机器速度不是太快，所以送了你升级，记得多做几个（）"]
+			id: "74D1E1960275FFED"
+			rewards: [
+				{
+					count: 8
+					id: "2CB11A319A667F43"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "54547447DE68ADB1"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4777BB3845EC8F2F"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "279BDE0C2DF443DC"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["78F08DD3242EA416"]
+			id: "7FA3EF6763DF538D"
+			tasks: [{
+				id: "4A0673588518CCAA"
+				item: "create:zinc_block"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"74D1E1960275FFED"
+				"7FA3EF6763DF538D"
+			]
+			description: ["后面要的很多，我建议，你多做点"]
+			id: "009F18812297EB77"
+			tasks: [{
+				id: "6CDF0DAFD8F2BB27"
+				item: "kubejs:dirty_zinc_bucket"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["009F18812297EB77"]
+			id: "5D69CEE252BF27B8"
+			tasks: [{
+				id: "7796F25C09B0EE16"
+				item: "kubejs:pure_zinc_bucket"
+				type: "item"
+			}]
+			title: "纯净锌浆液（为什么翻译没成功）"
+			x: -30.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["127C0CA090AF8583"]
+			id: "27D3FB8B75BF9397"
+			tasks: [{
+				id: "5E85CF62F7B1E542"
+				item: "malum:spectral_lens"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["454967D88B59B9F8"]
+			id: "49AFA8D54189C9DE"
+			tasks: [{
+				id: "590C41EBC8E6843C"
+				item: "mysticalagriculture:redstone_essence"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["574E7CEB658E1EE8"]
+			id: "3A17C1946BBC9A9D"
+			tasks: [{
+				id: "749B8C49A20992CC"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			x: -46.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["42CA62BAE8627774"]
+			description: ["看液体jei!"]
+			id: "691169BAEDF07324"
+			tasks: [{
+				id: "52CD31F572ACADE3"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -19.0d
+		}
+	]
+	title: "坠于凡尘之中"
+}

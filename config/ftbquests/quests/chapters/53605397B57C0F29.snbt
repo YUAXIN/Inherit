@@ -1,0 +1,819 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "53605397B57C0F29"
+	group: "4B00EFE0D2CEE57F"
+	icon: "malum:wicked_spirit"
+	id: "53605397B57C0F29"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C64D964F62FA3AB"]
+			id: "7237FE88A0C44595"
+			tasks: [{
+				id: "26ADD0D5518B043E"
+				item: "vintageimprovements:steel_spring"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7237FE88A0C44595"]
+			id: "5390B76534E4AB7A"
+			tasks: [{
+				id: "424D609E9BA879B3"
+				item: "vintageimprovements:vacuum_chamber"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5390B76534E4AB7A"]
+			id: "23396F91EACB9DBB"
+			tasks: [{
+				id: "53C2265FF01DD389"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["23396F91EACB9DBB"]
+			id: "2A7C2F0A78737882"
+			tasks: [{
+				id: "7598ABC004D0BDFE"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5390B76534E4AB7A"]
+			id: "1DF39E1AE5DB8004"
+			tasks: [{
+				id: "40AA47886495E5B4"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A7C2F0A78737882"]
+			id: "474484277DA6BB36"
+			tasks: [{
+				id: "0C8A8156A0774D8D"
+				item: "occultism:otherstone_tablet"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"474484277DA6BB36"
+				"2A0857F40D273711"
+			]
+			description: ["月沙经过灵火转化后变成了异界灰烬（谁说月球不算异界呢）"]
+			id: "50B854B975C1BC58"
+			tasks: [
+				{
+					id: "456DEA9C1053F5EE"
+					item: "occultism:burnt_otherstone"
+					type: "item"
+				}
+				{
+					id: "1D2B2BB12DAED952"
+					item: "occultism:otherworld_ashes"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2C64D964F62FA3AB"]
+			id: "005D94370DE23533"
+			tasks: [{
+				id: "6E23DCA84297B1C0"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["005D94370DE23533"]
+			id: "1BBA37B8B3B6607C"
+			tasks: [{
+				id: "796B6E8E07C5405C"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"57976BEDB528C9BF"
+				"4A628EF1D027A42C"
+			]
+			id: "56FF4E474FF197E5"
+			tasks: [{
+				id: "4DFA44D1897CC934"
+				item: "extendedcrafting:black_iron_block"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1BBA37B8B3B6607C"]
+			id: "73BD44A33693D4B0"
+			tasks: [{
+				id: "6355CA0D77B623B2"
+				item: "mekanism:enriched_diamond"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73BD44A33693D4B0"]
+			id: "3980EE1C9AFADEC3"
+			tasks: [{
+				id: "74F01C76323D50A3"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["73BD44A33693D4B0"]
+			id: "54AD65671AB9ADF4"
+			rewards: [{
+				id: "7B499E166AE1A3CC"
+				item: "ars_nouveau:glyph_explosion"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D44895841E55060"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3980EE1C9AFADEC3"]
+			id: "10CB9D940F09615D"
+			tasks: [{
+				id: "490CD41DCF51D791"
+				item: "mysticalagriculture:prosperity_gemstone"
+				type: "item"
+			}]
+			title: "无穷无尽的活化宝石"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54AD65671AB9ADF4"]
+			id: "691BE733BFAD2C4E"
+			tasks: [{
+				id: "49162A48FE98A21F"
+				item: "industrialforegoing:laser_lens15"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1DF39E1AE5DB8004"
+				"5DEC0C3D97FB4EB6"
+			]
+			description: ["紊乱花瓣块是16色花瓣块投入精灵门获取"]
+			id: "1C888DE2614135DB"
+			tasks: [{
+				id: "127DE4BA519A474F"
+				item: "mysticalagriculture:dye_agglomeratio"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1BBA37B8B3B6607C"]
+			description: ["耐久这么高，就不写无法破坏了（"]
+			id: "10B11DD165FB45A5"
+			tasks: [{
+				id: "3B7F0E70D8CD766F"
+				item: {
+					Count: 1b
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["10B11DD165FB45A5"]
+			id: "5DEC0C3D97FB4EB6"
+			tasks: [{
+				id: "7F6CFE7FD341DBA1"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1C888DE2614135DB"
+				"691BE733BFAD2C4E"
+			]
+			id: "57976BEDB528C9BF"
+			tasks: [{
+				id: "4F0D76070541FB89"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3980EE1C9AFADEC3"]
+			id: "62BC508188AAC343"
+			tasks: [{
+				id: "69C582B8A6499623"
+				item: "elementalcraft:purecrystal"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62BC508188AAC343"]
+			id: "605936BAA1D58E32"
+			tasks: [
+				{
+					id: "69E0D1CA64E1F62A"
+					item: "elementalcraft:container"
+					type: "item"
+				}
+				{
+					id: "787A2F8A6ABE16C8"
+					item: "elementalcraft:binder"
+					type: "item"
+				}
+			]
+			title: "元素聚合"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["605936BAA1D58E32"]
+			id: "4A628EF1D027A42C"
+			tasks: [{
+				id: "63E6B81927099441"
+				item: "elementalcraft:drenched_iron_block"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A628EF1D027A42C"]
+			id: "4132FFE187B03569"
+			tasks: [{
+				id: "689CA5B91BDD24FB"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["56FF4E474FF197E5"]
+			id: "6C0A87696005D5CA"
+			tasks: [{
+				id: "0130B7EEB68817E6"
+				item: "extendedcrafting:frame"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6C0A87696005D5CA"]
+			id: "2F03DD209ED10EA8"
+			tasks: [{
+				id: "0BBCC5BFEDE0296C"
+				item: "extendedcrafting:crafting_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F03DD209ED10EA8"]
+			id: "7C4749F1EBE27EE9"
+			tasks: [{
+				id: "22279DE8D3B3C907"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7C4749F1EBE27EE9"]
+			description: ["因为一些原因，太空内容不愿过多加入，去月球会是本包唯一维度任务，后续探索玩家可以自行进行"]
+			id: "506836ED4EFDC661"
+			rewards: [
+				{
+					id: "1F15B5882BC6A1C8"
+					item: "ringsofascension:ring_night_vision"
+					type: "item"
+				}
+				{
+					id: "224212EFA15FB185"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+				{
+					id: "2069D51CEEF92C82"
+					item: "ad_astra:oxygen_distributor"
+					type: "item"
+				}
+				{
+					id: "19A9019457054897"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15682FED56740DD0"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D0F32DA509ECD85"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3429537457150B31"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "084C9410952B057F"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["506836ED4EFDC661"]
+			description: ["没有石油燃料？仔细回想，我们似乎做过类似于燃料的东西（ps:与符文有关）"]
+			id: "59505A3BC15AE7DE"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "4554139DDB925FBA"
+				type: "dimension"
+			}]
+			title: "前往月球！"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59505A3BC15AE7DE"]
+			id: "2A0857F40D273711"
+			tasks: [{
+				id: "39D5279EDAC05D38"
+				item: "ad_astra:moon_sand"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59505A3BC15AE7DE"]
+			id: "5DCB6F4491396696"
+			tasks: [{
+				id: "44FFEB0616241D43"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["50B854B975C1BC58"]
+			id: "6A1D7596925A3C5C"
+			tasks: [{
+				id: "39178162EAF1C5A4"
+				item: "occultism:chalk_white"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5DCB6F4491396696"]
+			id: "3FB7886E784DE19F"
+			tasks: [{
+				id: "77D651D4538389DD"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"6A1D7596925A3C5C"
+				"3FB7886E784DE19F"
+			]
+			id: "208BD607DE9934C6"
+			tasks: [{
+				id: "0306704F79980ACB"
+				title: "仪式：阿维亚之环"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["59505A3BC15AE7DE"]
+			id: "57846EA8B2955F0A"
+			tasks: [
+				{
+					id: "0FA9B5E488AEDC96"
+					item: "ad_astra:raw_desh"
+					type: "item"
+				}
+				{
+					id: "3E014AF08C80D1D2"
+					item: "moremekanismprocessing:desh_ingot"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["62BC508188AAC343"]
+			id: "7CE0F99B5D7C836A"
+			tasks: [{
+				id: "561BD6697E303F7E"
+				item: "avaritia:crystal_matrix"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57846EA8B2955F0A"]
+			id: "18463B764AFA8379"
+			tasks: [{
+				id: "0EC53CA6DEB12FD2"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["208BD607DE9934C6"]
+			icon: "occultism:ritual_dummy/summon_foliot_crusher"
+			id: "5AAAB229EA012CC2"
+			tasks: [
+				{
+					id: "747369C713003AE1"
+					title: "召唤魔灵碎矿者"
+					type: "checkmark"
+				}
+				{
+					id: "1726CC6B46EDE49E"
+					item: "occultism:ritual_dummy/summon_foliot_crusher"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7CE0F99B5D7C836A"]
+			id: "3EA67E4EEB42D274"
+			tasks: [{
+				id: "0F6C8EDD6E13E7AB"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5AAAB229EA012CC2"
+				"18463B764AFA8379"
+			]
+			id: "0B8088E0F6513F36"
+			tasks: [{
+				id: "0DF1C0BDEE357713"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0B8088E0F6513F36"
+				"0BEB12505D6403CA"
+			]
+			id: "3185EA9D2A050C8C"
+			tasks: [{
+				id: "06BEF9C06FF9157C"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["57846EA8B2955F0A"]
+			description: ["自动化方式似乎与混合锅一样？"]
+			id: "0BEB12505D6403CA"
+			tasks: [{
+				id: "1746F5451BA630B3"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["605936BAA1D58E32"]
+			id: "47ADACEA501DE0DA"
+			tasks: [{
+				id: "50A068FC591DD261"
+				item: "kubejs:elemrntium_casing"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3EA67E4EEB42D274"
+				"47ADACEA501DE0DA"
+			]
+			id: "6491C25BD8CCD419"
+			tasks: [{
+				id: "47980B295513743B"
+				item: "createaddition:electrum_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6491C25BD8CCD419"]
+			id: "147EA70DF4700669"
+			tasks: [{
+				id: "493CCBC89265DEB8"
+				item: "thermal:electrum_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["147EA70DF4700669"]
+			id: "22794F4B493A1822"
+			tasks: [{
+				id: "1B84174AF82FBE4D"
+				item: "occultism:chalk_gold"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"22794F4B493A1822"
+				"1A7937869CC91DC2"
+			]
+			id: "6B0461AEE859780A"
+			tasks: [{
+				id: "0E679C0A7D8B5A24"
+				title: "艾兹维斯灵体强迫"
+				type: "checkmark"
+			}]
+			title: "仪式：艾兹维斯灵体强迫"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47ADACEA501DE0DA"]
+			id: "7C89AE90C69E25B7"
+			tasks: [{
+				id: "0317665904D82B33"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C89AE90C69E25B7"]
+			id: "1A7937869CC91DC2"
+			tasks: [{
+				id: "2C9E71E251CCE08D"
+				item: "occultism:spirit_attuned_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6B0461AEE859780A"
+				"3185EA9D2A050C8C"
+			]
+			id: "115AB02E19169C1C"
+			tasks: [{
+				id: "7AFAF7B16AD55D08"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DEF2911E39FA939"]
+			id: "2DB07F474DA00885"
+			tasks: [{
+				id: "0E9E7B0E07C08B3D"
+				item: "malum:wicked_spirit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"115AB02E19169C1C"
+				"4FE4EB1A78FC15A7"
+			]
+			id: "0DEF2911E39FA939"
+			tasks: [{
+				id: "250BF611F941D9DD"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["691BE733BFAD2C4E"]
+			id: "4FE4EB1A78FC15A7"
+			tasks: [{
+				id: "1D79558426798E7A"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["30A9C3EBD792E129"]
+			description: ["一次偶然的实验，我们发现了物质球接触水之后会产生大量未知能量，直至我们接触了自然祭坛，才明白，原来，那种能量叫灵气"]
+			id: "4B73D62CDF23BB57"
+			tasks: [{
+				id: "324533B86FBE3140"
+				item: "avaritia:matter_cluster"
+				type: "item"
+			}]
+			title: "灵气补充"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B0461AEE859780A"]
+			id: "30A9C3EBD792E129"
+			tasks: [{
+				id: "0854E94E799FDDB2"
+				item: "projecte:dark_matter_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EA67E4EEB42D274"]
+			id: "1859DE225C5B5112"
+			tasks: [{
+				id: "2D1F61ABD2E763DA"
+				item: "evilcraft:bucket_blood"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CE0F99B5D7C836A"]
+			id: "061BF7B27CC6FC28"
+			tasks: [{
+				id: "76059B598B4E58EB"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["061BF7B27CC6FC28"]
+			id: "4C4CE99C5E3EA58A"
+			tasks: [{
+				id: "400B2ABC4D532FF9"
+				item: "mysticalagriculture:blazing_crystal_essence"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["061BF7B27CC6FC28"]
+			id: "726CCDA6BDAF4AE0"
+			tasks: [{
+				id: "0428DEF8D33A4937"
+				item: "mysticalagriculture:niotic_crystal_essence"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["061BF7B27CC6FC28"]
+			id: "4C8B2062C820A8BF"
+			tasks: [{
+				id: "26B2CFBE92A296FA"
+				item: "mysticalagriculture:spirited_crystal_essence"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+	]
+	title: "灵气破镜"
+}

@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "333E8164C78663A5"
+	group: ""
+	id: "333E8164C78663A5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "10011924AFB8BD77"
+			rewards: [
+				{
+					id: "6F30F7CF771461F2"
+					item: {
+						Count: 1b
+						id: "tiab:time_in_a_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "14B48DDC2D3B4A0E"
+					item: {
+						Count: 1b
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57E152B16522CE8D"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "672F18340A44B580"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "705C3DF33A34D7A8"
+					item: {
+						Count: 1b
+						id: "functionalstorage:configuration_tool"
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "233C3FCAC5301E89"
+				title: "欢迎游玩整合包inherit"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10011924AFB8BD77"]
+			description: ["会有点卡"]
+			icon: "minecraft:name_tag"
+			id: "13451A121380E442"
+			rewards: [{
+				auto: "enabled"
+				command: "advancement grant @s everything"
+				id: "48F69431D7CACEA7"
+				player_command: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "7B499FED715D64F7"
+				title: "成就全解"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10011924AFB8BD77"]
+			description: [
+				"代码支持：Y_xiao233"
+				"部分物品材质：川 直播宣传：sweet秋明"
+				"以及每一位游玩整合包并提出bug的玩家"
+			]
+			id: "2E35C1A39EC963B0"
+			tasks: [{
+				id: "576EF8288F679A11"
+				title: "感谢"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10011924AFB8BD77"]
+			description: ["如果你是在MC百科下载并游玩本整合包，可以在评论区下方提出你所遇到的bug。或者加入群聊754645187提问"]
+			id: "0B9DBD50054B7723"
+			tasks: [{
+				id: "094B0C6B2431EAD4"
+				title: "问题反馈"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10011924AFB8BD77"]
+			description: [
+				"整合包强制启用了以下规则："
+				"1.禁止流浪商人生成"
+				"2.禁止天气变化"
+				"3.禁止怪物生成"
+				"4.禁止生物破坏"
+			]
+			id: "6FBA94258E9BB8E7"
+			tasks: [{
+				id: "1768D8129FE4E856"
+				title: "部分强制启用的游戏规则"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E35C1A39EC963B0"]
+			hide_dependency_lines: true
+			id: "2A46474427392D70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68C1B3860BEFD550"
+				table_id: 948187006963881536L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "515D03CBA785BBAE"
+				title: "自选式铺地材料"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E35C1A39EC963B0"]
+			description: ["众所周知，水槽是唯一真神"]
+			hide_dependency_lines: true
+			id: "3DD2806041695A1C"
+			rewards: [{
+				id: "55DA0292189924F0"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			tasks: [{
+				id: "614CD1916BF01709"
+				title: "谁说懒人不是科技mod（"
+				type: "checkmark"
+			}]
+			title: "谁说科技不能带厨房（"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10011924AFB8BD77"]
+			id: "18D1D5D6E55DAF1B"
+			tasks: [{
+				id: "70EB1F0E81BB9845"
+				title: "部分任务前置比较隐晦，请仔细查找"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["576EF8288F679A11"]
+			id: "4B6DA02E45FE8BA0"
+			rewards: [{
+				id: "067E2B491323EF56"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "103146FD1DAD4A40"
+				title: "略为easy模式"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10011924AFB8BD77"]
+			description: [
+				"整合包对部分原版内容进行了大型魔改，因此部分合成会与你记忆的不同，遇到不理解的请查看jei"
+				"此外，部分物品无法制作的时候，请尝试重启游戏"
+			]
+			id: "12B0CB431CE2865F"
+			tasks: [{
+				id: "61EEC785E6AB85F9"
+				title: "提示！"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+	]
+	title: "开始"
+}

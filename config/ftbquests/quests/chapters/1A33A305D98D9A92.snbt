@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1A33A305D98D9A92"
+	group: "33C9980488C9A5D6"
+	id: "1A33A305D98D9A92"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["前期拿奥术木炭会更方便"]
+		id: "23560D5B63E1DBDB"
+		tasks: [{
+			id: "143103C38871C0B7"
+			item: "industrialforegoing:pitiful_generator"
+			type: "item"
+		}]
+		x: -25.0d
+		y: -17.0d
+	}]
+	title: "发电二三事"
+}

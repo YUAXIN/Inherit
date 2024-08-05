@@ -1,0 +1,782 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0479B36A290C06DC"
+	group: "4B00EFE0D2CEE57F"
+	icon: "botania:terrasteel_ingot"
+	id: "0479B36A290C06DC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A78994F362632F7"]
+			description: [
+				"高温袪魔增压来获取新的物品，对，我说的就是煎锅"
+				"烧东西有技巧"
+			]
+			id: "570E80051B3CDFD3"
+			rewards: [{
+				id: "5F8E38FAED5AC925"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4716C8BD09711B66"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "煎铁"
+			x: -46.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["570E80051B3CDFD3"]
+			description: ["利用魔源，我们可以让魔源石拥有挤压空气的能力"]
+			id: "6FC6AD045DF60D3B"
+			tasks: [{
+				id: "2C9DD0DAD859F2F3"
+				item: "pneumaticcraft:reinforced_stone"
+				type: "item"
+			}]
+			x: -48.0d
+			y: -34.5d
+		}
+		{
+			dependencies: [
+				"6FC6AD045DF60D3B"
+				"7D53BF36CE356129"
+			]
+			description: ["333的结构，气阀和两个接口放在四个面的中心即可。（接口要相反，即蓝对橙）"]
+			id: "622050338B7FBFA2"
+			tasks: [
+				{
+					count: 23L
+					id: "0FA8C5CB8BD351E3"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6C870B69BA3452BF"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "6918E42F8F5FA76B"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+			]
+			title: "压力室"
+			x: -48.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["622050338B7FBFA2"]
+			id: "36FEBE470E2BC5DF"
+			tasks: [{
+				id: "6499AA090E685DFC"
+				item: "naturesaura:bottle_two_the_rebottling"
+				type: "item"
+			}]
+			x: -48.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["36FEBE470E2BC5DF"]
+			id: "69D1C9BB7FF310A8"
+			tasks: [{
+				id: "358B03B2504020A1"
+				item: "botania:mana_bottle"
+				type: "item"
+			}]
+			x: -48.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["69D1C9BB7FF310A8"]
+			id: "380E65351D564C39"
+			tasks: [{
+				id: "6BB87889A1F374F9"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: -48.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["380E65351D564C39"]
+			description: ["因为不可控因素，我们没有办法完美捕捉到其中的元素，很遗憾，你只能大海捞针来找到所需要的元素了。不过幸运的是，这个世界元素无处不在，意思就是，他们是无限的"]
+			id: "3B2854DDC735F3A9"
+			tasks: [{
+				id: "362E6CA03DCAEEB0"
+				item: "elementalcraft:source"
+				type: "item"
+			}]
+			x: -48.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["622050338B7FBFA2"]
+			id: "70A5E4764CA86209"
+			tasks: [{
+				id: "2ED5EBB50C6810F7"
+				item: "elementalcraft:inert_crystal"
+				type: "item"
+			}]
+			x: -46.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["70A5E4764CA86209"]
+			id: "5DE18D113A7EA108"
+			tasks: [{
+				id: "5A59859205AE32E1"
+				item: "elementalcraft:contained_crystal"
+				type: "item"
+			}]
+			x: -46.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["570E80051B3CDFD3"]
+			id: "11F9DB7D4BC96E68"
+			tasks: [{
+				id: "7242D540E50AE921"
+				item: "kubejs:compressed_iron_sheet"
+				type: "item"
+			}]
+			x: -45.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["11F9DB7D4BC96E68"]
+			id: "7D53BF36CE356129"
+			tasks: [{
+				id: "7FF2067C30CBCBAA"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: -46.5d
+			y: -34.5d
+		}
+		{
+			dependencies: ["5DE18D113A7EA108"]
+			id: "6D547950CEAB51B9"
+			tasks: [
+				{
+					id: "2D7B6EB9CE731D68"
+					item: "elementalcraft:small_container"
+					type: "item"
+				}
+				{
+					id: "725EF678D6956191"
+					item: "elementalcraft:elementpipe_impaired"
+					type: "item"
+				}
+				{
+					id: "63269FFAED7FFFA5"
+					item: "elementalcraft:infuser"
+					type: "item"
+				}
+				{
+					id: "075E99FF9CD721BF"
+					item: "elementalcraft:extractor"
+					type: "item"
+				}
+			]
+			title: "灌注"
+			x: -46.5d
+			y: -28.5d
+		}
+		{
+			dependencies: [
+				"3B2854DDC735F3A9"
+				"6D547950CEAB51B9"
+				"3D4D12BDCB5F4A86"
+			]
+			id: "0B28CA53781D0A29"
+			tasks: [{
+				id: "4D254DEA5311CC4C"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			x: -46.5d
+			y: -25.5d
+		}
+		{
+			dependencies: [
+				"3B2854DDC735F3A9"
+				"6D547950CEAB51B9"
+			]
+			id: "6BFD0C1FBD3EC266"
+			tasks: [{
+				id: "654E6B412903F0D2"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -46.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["2A83D7270FA988BD"]
+			description: ["记得丢准了，不然不会生成"]
+			id: "4C0399D137ECE72B"
+			rewards: [
+				{
+					id: "1709877B91C417F3"
+					item: "mob_grinding_utils:xp_tap"
+					type: "item"
+				}
+				{
+					id: "29420B34DC8E09B6"
+					item: "cyclic:experience_pylon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "100ACE318C83C93B"
+				item: "botania:floating_rosa_arcana"
+				type: "item"
+			}]
+			title: "我们需要更多的魔力！"
+			x: -42.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["6BFD0C1FBD3EC266"]
+			id: "1000B7166AE02392"
+			tasks: [{
+				id: "263B75D9105B5C42"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -45.0d
+			y: -28.5d
+		}
+		{
+			dependencies: [
+				"6BFD0C1FBD3EC266"
+				"0D79D3F12DF45A58"
+			]
+			id: "02CDA8CE59302A1B"
+			tasks: [
+				{
+					id: "308A98A2049B1590"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2721F7D60E425953"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "756D9F94BD7698A0"
+					item: "botania:glimmering_livingwood_log"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6D7D3D537CCAFE77"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			x: -43.5d
+			y: -27.0d
+		}
+		{
+			dependencies: [
+				"6BFD0C1FBD3EC266"
+				"0B28CA53781D0A29"
+			]
+			id: "0D79D3F12DF45A58"
+			tasks: [{
+				id: "73F2742561A3146D"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: -45.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["622050338B7FBFA2"]
+			description: ["将嗜血符文放进锅里，站在嗜血符文里面跳，就会渗透出血液"]
+			id: "51ABBCB6AEB4C463"
+			tasks: [{
+				id: "02F4F6B74931E7FD"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -46.5d
+			y: -33.0d
+		}
+		{
+			dependencies: ["51ABBCB6AEB4C463"]
+			id: "118675EA822F5085"
+			tasks: [{
+				id: "171939E3CD813670"
+				item: "quark:blank_rune"
+				type: "item"
+			}]
+			x: -45.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["118675EA822F5085"]
+			id: "02AB525B53E90DE6"
+			tasks: [{
+				id: "5CE8ADA34594AB5B"
+				item: "kubejs:rune"
+				type: "item"
+			}]
+			x: -43.5d
+			y: -33.0d
+		}
+		{
+			dependencies: [
+				"02AB525B53E90DE6"
+				"3B2854DDC735F3A9"
+			]
+			description: [
+				"汲取了四种元素的空白符文逐渐演变出了精灵维度最基本的的四大符文"
+				"{@pagebreak}"
+				"符文的消耗量皆是1000，对准容器可以看到里面的元素含量"
+			]
+			id: "68961BBBBB7FB223"
+			tasks: [
+				{
+					id: "41A58E20C1FD82E4"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "45F086C445453F95"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "1C3C26C622504433"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "0A8265C9827C97AE"
+					item: "botania:rune_water"
+					type: "item"
+				}
+			]
+			title: "四大元素符文"
+			x: -43.5d
+			y: -31.5d
+		}
+		{
+			dependencies: [
+				"68961BBBBB7FB223"
+				"1000B7166AE02392"
+			]
+			id: "2A83D7270FA988BD"
+			rewards: [{
+				id: "436DB8678EC298F4"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3813714FB318965F"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: -43.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["02CDA8CE59302A1B"]
+			id: "45A07B16B56923AF"
+			tasks: [{
+				id: "193F9A796B135333"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -27.0d
+		}
+		{
+			dependencies: [
+				"45A07B16B56923AF"
+				"3834D27010C2F594"
+			]
+			description: ["通过新兴科技，你成功的从泰拉钢中提取出了精灵维度守者的一丝气息，并将其封装在了收容罐之中"]
+			id: "7FD3211E77E541FF"
+			tasks: [{
+				id: "78FEE6A16BD05703"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:mob_jar"
+					tag: {
+						BlockEntityTag: {
+							entityId: "botania:doppleganger"
+							entityTag: {
+								id: "botania:doppleganger"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "收容罐（盖亚)"
+			x: -40.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["2A83D7270FA988BD"]
+			id: "3EA3B5B15E7B340A"
+			tasks: [{
+				id: "4975C10B0D9CF0B7"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -31.5d
+		}
+		{
+			dependencies: [
+				"6D547950CEAB51B9"
+				"68961BBBBB7FB223"
+			]
+			id: "3EBBC0197CBFF375"
+			tasks: [{
+				id: "47CAECD44B246F3A"
+				item: "elementalcraft:elementpipe_improved"
+				type: "item"
+			}]
+			x: -45.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["3EBBC0197CBFF375"]
+			description: ["现在还做不了元素容器，送几个来做东西"]
+			id: "1D88CE15F56BB37D"
+			rewards: [{
+				count: 4
+				id: "0E7523C14D615929"
+				item: "elementalcraft:container"
+				type: "item"
+			}]
+			tasks: [{
+				id: "417EABB3CFB09034"
+				item: "elementalcraft:water_mill_wood_saw"
+				type: "item"
+			}]
+			x: -43.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["1D88CE15F56BB37D"]
+			id: "3834D27010C2F594"
+			tasks: [{
+				id: "1DC729CE2F1D59DD"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["7FD3211E77E541FF"]
+			id: "260E8F1C1A45CC19"
+			tasks: [{
+				id: "0A1E8D1B3352987A"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["68961BBBBB7FB223"]
+			id: "0189307FC9F7EFD8"
+			tasks: [{
+				id: "3FB9A7FB7E2D33A9"
+				item: "ars_nouveau:glyph_lightning"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -33.0d
+		}
+		{
+			dependencies: [
+				"3EA3B5B15E7B340A"
+				"0189307FC9F7EFD8"
+				"260E8F1C1A45CC19"
+			]
+			id: "2210008AB5EB210B"
+			tasks: [{
+				id: "21EA209519819753"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -31.5d
+		}
+		{
+			dependencies: [
+				"2210008AB5EB210B"
+				"31AB502B157B686A"
+			]
+			id: "470493BF5B1BDB97"
+			tasks: [{
+				id: "202D005CDA9338F8"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["7C500C5F5416BA21"]
+			id: "0C3580D23F374551"
+			tasks: [{
+				id: "474B8E56586FD0DF"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -33.0d
+		}
+		{
+			dependencies: ["1D69A16FE3B31968"]
+			id: "7C500C5F5416BA21"
+			tasks: [{
+				id: "6EA15E889275750C"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -34.5d
+		}
+		{
+			dependencies: ["0189307FC9F7EFD8"]
+			id: "1D69A16FE3B31968"
+			tasks: [{
+				id: "4FF7B2B1EAD7BEDA"
+				item: "powah:charged_snowball"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["0C3580D23F374551"]
+			id: "31AB502B157B686A"
+			tasks: [{
+				id: "275FE199E7D73C04"
+				item: "cyclic:solidifier"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -33.0d
+		}
+		{
+			dependencies: [
+				"02AB525B53E90DE6"
+				"1D69A16FE3B31968"
+			]
+			id: "5A987E85ADF4DE17"
+			tasks: [{
+				id: "1A7555E635C88C34"
+				item: "pneumaticcraft:flux_compressor"
+				type: "item"
+			}]
+			x: -43.5d
+			y: -34.5d
+		}
+		{
+			dependencies: ["260E8F1C1A45CC19"]
+			id: "213F96DA42CD92A7"
+			tasks: [{
+				id: "7CC84664F9A32FF7"
+				item: "kubejs:gaia_essence_bucket"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["213F96DA42CD92A7"]
+			id: "0AACEFCA0BFDDA71"
+			tasks: [{
+				id: "6082FFE01F72B6B6"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["213F96DA42CD92A7"]
+			id: "045720C6586DC33B"
+			tasks: [{
+				id: "225FD93FCE79971D"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["045720C6586DC33B"]
+			id: "1E8D6C7E1FA97859"
+			tasks: [{
+				id: "3FEF7BC671AADF5B"
+				item: "create:chocolate_bucket"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -28.5d
+		}
+		{
+			dependencies: [
+				"0AACEFCA0BFDDA71"
+				"1E8D6C7E1FA97859"
+			]
+			id: "6CC836E86C704125"
+			tasks: [{
+				id: "3F98CB732A067438"
+				item: "kubejs:alfsteel_casing"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["6CC836E86C704125"]
+			id: "7CEB180D9B7E5E70"
+			tasks: [{
+				id: "5DEB51511E56090D"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["7CEB180D9B7E5E70"]
+			description: ["有了注魔板之后，泰拉钢的获取更加方便了，或许，我们应该量产它？"]
+			id: "642C41D04C3CD964"
+			tasks: [{
+				id: "5EBB686CDE65A9E5"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "更多的泰拉钢"
+			x: -34.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["6CC836E86C704125"]
+			id: "4D96A154A431A375"
+			tasks: [
+				{
+					count: 8L
+					id: "4A7C4662D662DD48"
+					item: "mythicbotany:rune_holder"
+					type: "item"
+				}
+				{
+					id: "5EF5DF2586563DEE"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+			]
+			title: "异界符文之仪"
+			x: -36.0d
+			y: -31.5d
+		}
+		{
+			dependencies: [
+				"213F96DA42CD92A7"
+				"470493BF5B1BDB97"
+			]
+			description: [
+				"将加拉尔的号角放入世界树枝干上，向其灌注魔力，即可获得所需之物"
+				"同时这也是开始符文仪式的必要之物，只有喝下它，才能开始仪式"
+			]
+			id: "2D6314F6E8C6A1C4"
+			tasks: [
+				{
+					id: "7AB130180D15BC8B"
+					item: "mythicbotany:yggdrasil_branch"
+					type: "item"
+				}
+				{
+					id: "394AADF3C7DC6636"
+					item: "mythicbotany:gjallar_horn_empty"
+					type: "item"
+				}
+				{
+					id: "2872729327A25406"
+					item: "mythicbotany:gjallar_horn_full"
+					type: "item"
+				}
+			]
+			x: -37.5d
+			y: -31.5d
+		}
+		{
+			dependencies: [
+				"2D6314F6E8C6A1C4"
+				"4D96A154A431A375"
+				"08076241DBE20995"
+			]
+			description: ["尼德威阿尔是矮人的国度，只有借助矮人的力量，钢才能被再次凝聚出来"]
+			id: "2C64D964F62FA3AB"
+			tasks: [{
+				id: "59F2F87CCB2C30BE"
+				item: "thermal:steel_block"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["2D6314F6E8C6A1C4"]
+			description: ["在旁边放一个魔力池，有魔力的情况下，就可以自动进行符文仪式"]
+			id: "08076241DBE20995"
+			tasks: [{
+				id: "39E15613BBDB56DD"
+				item: "mythicbotany:petrunia_floating"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -33.0d
+		}
+		{
+			dependencies: ["36FEBE470E2BC5DF"]
+			description: ["或许？我们要去地狱？"]
+			id: "6A61E008CFDB4C6D"
+			tasks: [{
+				id: "1283F62683FCE360"
+				item: {
+					Count: 1b
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				type: "item"
+			}]
+			x: -49.5d
+			y: -31.5d
+		}
+	]
+	title: "钢与异界"
+}

@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "39239EA091F873C6"
+	group: "33C9980488C9A5D6"
+	icon: "mysticalagriculture:experience_essence"
+	id: "39239EA091F873C6"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4C0399D137ECE72B"
+				"2EFD5C388E56BDD4"
+			]
+			id: "3DACA7242E373870"
+			size: 5.0d
+			tasks: [{
+				id: "399ED932E19F7BFE"
+				item: "botania:floating_rosa_arcana"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["107CC8682B969560"]
+			id: "03C47703EEF1E46F"
+			size: 5.0d
+			tasks: [{
+				id: "65EF11889A5662F4"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["03C47703EEF1E46F"]
+			id: "2EFD5C388E56BDD4"
+			size: 5.0d
+			tasks: [{
+				id: "0226CE48F80BC4A8"
+				item: "cyclic:xpjuice_bucket"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -15.0d
+		}
+	]
+	title: "阿卡纳产魔"
+}

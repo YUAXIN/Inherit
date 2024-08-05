@@ -1,0 +1,755 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5AC63AE00191FAC1"
+	group: "6B77C20D3C0D3C53"
+	icon: "malum:spirit_altar"
+	id: "5AC63AE00191FAC1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D9C3E0112B5C718"]
+			id: "214A8149D41F72F8"
+			tasks: [{
+				id: "17242B83D3C12CB7"
+				item: "malum:runewood_planks"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["214A8149D41F72F8"]
+			id: "62B1946CC6978372"
+			tasks: [{
+				id: "277038191D73B0AA"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"214A8149D41F72F8"
+				"62B1946CC6978372"
+			]
+			description: ["正常的工作台没有办法承受住你的灵魂带来的侵蚀，利用符文木亲灵的特性来获取一个能够承受灵魂的工作台"]
+			id: "73AFB9B2081F349F"
+			tasks: [{
+				id: "4E614C211E1A29CA"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -12.5d
+		}
+		{
+			description: ["当你醒来之时，身边的一切都不见了，只剩你身后那一颗硕大的符文树和一把简陋的镰刀"]
+			id: "5D9C3E0112B5C718"
+			rewards: [
+				{
+					id: "4CA02B7B7D123376"
+					item: {
+						Count: 1b
+						id: "malum:crude_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E2FF26D51383F08"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "010A6E9592D36876"
+				item: "malum:runewood_log"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -12.5d
+		}
+		{
+			description: ["你感知到这坚不可摧的基岩之中蕴含一种元素，似乎能将其取出来（蹲下右键基岩）"]
+			id: "24F9723898F5285A"
+			tasks: [{
+				id: "43A0B9EE6CFFBB70"
+				item: "mysticalagriculture:stone_essence"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5D9C3E0112B5C718"
+				"24F9723898F5285A"
+			]
+			description: ["正常的获取可以通过种植符文木，若是不愿意，也可以用石精华赋予它特性"]
+			id: "3DD8B0643BA15016"
+			tasks: [{
+				id: "19F8D64D0554A240"
+				item: "malum:exposed_runewood_log"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3DD8B0643BA15016"]
+			description: [
+				"镰刀汲取了符文木的魔力，将其转化为了尘土"
+				"但是炼金块无法正常破坏，请使用法术书破坏"
+			]
+			id: "2B757BA78FBA8F40"
+			tasks: [{
+				id: "31D0886D540A09CD"
+				item: "malum:block_of_alchemical_calx"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["24F9723898F5285A"]
+			id: "7D58BAE970D2BC85"
+			tasks: [{
+				id: "1B6D48337437FD2B"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["24F9723898F5285A"]
+			id: "69B1B12E1B192E95"
+			tasks: [{
+				id: "6EC8813EF0890F16"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"7D58BAE970D2BC85"
+				"69B1B12E1B192E95"
+			]
+			description: ["普通的圆石没有办法支撑熔炉所需的材料，我们似乎需要将其混合起来"]
+			id: "6CFBA1653F541A80"
+			tasks: [
+				{
+					id: "3976AA62C4B120A7"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5A10E282EEDC9046"
+					item: "quark:sturdy_stone"
+					type: "item"
+				}
+			]
+			x: -17.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2B757BA78FBA8F40"]
+			description: ["简易处理之后，尘土露出了藏在其中的精华"]
+			id: "4FF5F3E906D0B139"
+			tasks: [{
+				id: "396CD7F604A3ADFB"
+				item: {
+					Count: 1b
+					id: "malum:arcane_spirit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"73AFB9B2081F349F"
+				"4FF5F3E906D0B139"
+			]
+			description: ["将需要的物品和精魄放在符文祭坛之上，它就会工作了.你也可以一次性放大量物品，然后他也会自动合成"]
+			id: "741847035DF93790"
+			tasks: [{
+				id: "6AF522F4A72D015A"
+				item: "malum:raw_soulstone"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"4FF5F3E906D0B139"
+				"00470FC08FEA9625"
+			]
+			description: ["通过提取其中的精华，我们成功的将沙砾转化为了灵魂沙"]
+			id: "155CD1DC014AC287"
+			tasks: [{
+				id: "6138C2827FB8C1FB"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"24F9723898F5285A"
+				"2B757BA78FBA8F40"
+			]
+			id: "00470FC08FEA9625"
+			tasks: [{
+				id: "48C5514D8A1FF2E8"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4FF5F3E906D0B139"]
+			description: ["符文木的力量给灵魂沙带来了不一样的效果，它的火焰似乎带来了新的物质"]
+			id: "4534672387872361"
+			tasks: [{
+				id: "00936A6DB0D23829"
+				item: "spirit:soul_crystal_shard"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["155CD1DC014AC287"]
+			id: "3982D43828BD833C"
+			tasks: [{
+				id: "31FE33D59F693631"
+				item: "spirit:soul_slate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4534672387872361"
+				"3982D43828BD833C"
+			]
+			description: ["虽然造出的外壳有些脆弱，不过应该能支撑住目前的用途"]
+			id: "5EB1DDFBF565661A"
+			rewards: [{
+				id: "312E09FE6729CEBF"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BE867F679541A29"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["741847035DF93790"]
+			id: "0AC4FA5D11079101"
+			tasks: [{
+				id: "772A6CFBBDC1AF1E"
+				item: "malum:processed_soulstone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5EB1DDFBF565661A"]
+			description: [
+				"混合锅的自动化方式为从下方抽出，而激光可以在设置中调整抽取面。"
+				"与此同时，混合锅转化液体的规律为在合成结束之后，国内所剩的液体转化为jei中显示的流体。举例：1000ml的水进行安山合金合成并不会产生熔融铁，想要获得熔融铁，你需要2000ml的水。融化玻璃也是同理，你想要1000的玻璃，就需要对应数量加上消耗的数量的熔融铁，即2000ml"
+			]
+			id: "73D9178034CF1F3A"
+			tasks: [{
+				id: "02EDC46B7A220CBE"
+				item: {
+					Count: 1b
+					id: "hexerei:mixing_cauldron"
+					tag: {
+						display: {
+							color: 16760348
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"73D9178034CF1F3A"
+				"69E466BDF1F3ED8F"
+				"23560D5B63E1DBDB"
+			]
+			id: "7486A73331173A20"
+			tasks: [{
+				id: "54B94FB4AF16A60B"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0AC4FA5D11079101"]
+			description: ["人力还是很不错的，看看你的朋友适合吗"]
+			id: "0511F523A4834179"
+			rewards: [
+				{
+					id: "1DC6724C86EFFCB0"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "109063F3D8863FCA"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F2FD79000A7F166"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0AC4FA5D11079101"]
+			id: "0308D8BC9012CEFF"
+			tasks: [{
+				id: "0ED8C5A923279430"
+				item: "spirit:crude_soul_crystal"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"0511F523A4834179"
+				"0308D8BC9012CEFF"
+			]
+			id: "69E466BDF1F3ED8F"
+			tasks: [{
+				id: "21D41BBCCE20707E"
+				item: "kubejs:soul_steel_sheet"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["73D9178034CF1F3A"]
+			id: "096C3061C3692CD8"
+			rewards: [
+				{
+					id: "0007B3A5DB02FF3E"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "45EF0FBF2D9873C1"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "207F618B1352CCA3"
+					item: "cyclic:trash"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48816195D62397CF"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7486A73331173A20"]
+			description: ["通过右键它可以获取基本的奥术精华，做出它你就可以不用烧那该死的矿尘了(PS：紫水晶是psi获取"]
+			id: "59CFE1F7023860D3"
+			tasks: [{
+				id: "7A3C4D33E9204B48"
+				item: "projectexpansion:purple_fuel_block"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["096C3061C3692CD8"]
+			description: ["没有实体的机器框架没有办法放下来进行合成，用前面的机械手来辅助合成吧"]
+			id: "0CC973BFFD90FF96"
+			tasks: [{
+				id: "3D5AE264479A3C32"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0ED8C5A923279430"
+				"3D779F2A0F9EA04D"
+			]
+			description: ["高等级的灵魂法阵可以兼容低等级的，你可以多多注意多方块的形状，或许有不一样的发现"]
+			id: "7A8ECE6E55A63B60"
+			tasks: [{
+				id: "4C02752593E5261B"
+				item: "spirit:soul_crystal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A8ECE6E55A63B60"]
+			description: ["这是一个很好玩的法术，我对它也不是太过于了解，能做的只有其中的几项，不过幸运的是，在这个包里它最强的机壳也能造出来，或许你可以研究一下"]
+			id: "5A4BBAB3BF448D7F"
+			tasks: [{
+				id: "6B580DDAE01E8AD4"
+				item: "psi:cad_assembler"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0AC4FA5D11079101"]
+			description: ["坩埚需要的热源在这"]
+			id: "700B33BCE91593A1"
+			tasks: [{
+				id: "1E5F267169D08891"
+				item: "minecraft:soul_campfire"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5A4BBAB3BF448D7F"]
+			description: ["做出psi铁质机壳之后，将其放到cad装配就可以得到"]
+			id: "605D30F6B9F12DAF"
+			tasks: [{
+				id: "68F22EAE04EBB3D0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Battery: 0
+							Memory: [ ]
+							Time: 0
+						}
+					}
+					id: "psi:cad"
+					tag: {
+						componentASSEMBLY: {
+							Count: 1b
+							id: "psi:cad_assembly_iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["605D30F6B9F12DAF"]
+			id: "035D0505F1537116"
+			tasks: [{
+				id: "436D701A1EEB4A0E"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0CC973BFFD90FF96"
+				"035D0505F1537116"
+				"7486A73331173A20"
+			]
+			description: ["我们研究了很多年，也没能研究出来，这个普普通通的机器是怎么把坚硬的物品打碎还融合在一起的"]
+			id: "0F574873E36A003A"
+			tasks: [{
+				id: "524761C7E1E94079"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"096C3061C3692CD8"
+				"4750E8D0F5EB4261"
+			]
+			hide_dependency_lines: false
+			id: "3D779F2A0F9EA04D"
+			tasks: [{
+				count: 4L
+				id: "22A9B807B6EA2815"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0F574873E36A003A"]
+			description: ["拥有了这个，你就不用大费周章的搞矿尘做沙砾了，也意味着，你似乎终于可以接触到那份远古的技艺"]
+			icon: "create:millstone"
+			id: "5103C863AF28CD31"
+			tasks: [
+				{
+					id: "061739581F275A7C"
+					item: "create:turntable"
+					type: "item"
+				}
+				{
+					id: "4FAD400F8DB5C4C0"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			title: "石磨"
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5103C863AF28CD31"]
+			id: "107CC8682B969560"
+			tasks: [{
+				id: "065E1495CF61D52F"
+				item: "malum:earthen_spirit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"107CC8682B969560"
+				"605D30F6B9F12DAF"
+			]
+			id: "5B4D364A57BAFC45"
+			tasks: [{
+				id: "06675F1E1E3BD4A7"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["107CC8682B969560"]
+			id: "0C94803A48B37B80"
+			rewards: [{
+				id: "68FA75748CD7E000"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "354FDF355854F489"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["73D9178034CF1F3A"]
+			description: ["用手搓36个安山合金一定很累吧，用一个块来换一份自动化材料吧"]
+			hide: false
+			hide_dependency_lines: false
+			id: "4750E8D0F5EB4261"
+			rewards: [
+				{
+					count: 8
+					id: "03F92AF2FBEDBBEC"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2E8429D2072FC57C"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "29A2696F73193A5A"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6D34791437B85D15"
+					item: {
+						Count: 1b
+						id: "laserio:filter_basic"
+						tag: {
+							allowList: 1b
+							compareNBT: 0b
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2A1CEBE96C921C76"
+					item: {
+						Count: 1b
+						id: "laserio:filter_count"
+						tag: {
+							counts: [
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 0
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 1
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 2
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 3
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 4
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 5
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 6
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 7
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 8
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 9
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 10
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 11
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 12
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 13
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 14
+								}
+							]
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3117A436E497D2E3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+						id: "laserio:card_holder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "570AA103785EE10A"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+	]
+	title: "灵魂绽放于符文之仪"
+}

@@ -1,0 +1,347 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "475452E8C68E6B33"
+	group: "33C9980488C9A5D6"
+	icon: "modularrouters:modular_router"
+	id: "475452E8C68E6B33"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2DCFA29C97809EF6"
+				"54CA82B568F18D7D"
+			]
+			id: "0730EF716CFC18B1"
+			tasks: [{
+				id: "0E13E18B50AB9CC5"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -15.0d
+		}
+		{
+			id: "00720EA90D218FCD"
+			tasks: [{
+				id: "3879BF892D8585F4"
+				item: "modularrouters:blank_upgrade"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -15.0d
+		}
+		{
+			id: "7EACE878AFC97D37"
+			tasks: [{
+				id: "3BA916902A051DB2"
+				item: "modularrouters:blank_module"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "4FF60F3CFA0651EC"
+			tasks: [{
+				id: "1304D7B93A9E3ED5"
+				item: {
+					Count: 1b
+					id: "modularrouters:puller_module_1"
+					tag: {
+						modularrouters: {
+							Direction: "NONE"
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["00720EA90D218FCD"]
+			id: "124727D80BF48119"
+			tasks: [{
+				id: "1876B1CA5331FEC5"
+				item: "modularrouters:speed_upgrade"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["00720EA90D218FCD"]
+			id: "0B9C9AA56807CD9A"
+			tasks: [{
+				id: "0829A2CC35E21186"
+				item: "modularrouters:stack_upgrade"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4FF60F3CFA0651EC"]
+			id: "72C6EE676E82AB53"
+			tasks: [{
+				id: "120043593C2A86B1"
+				item: {
+					Count: 1b
+					id: "modularrouters:puller_module_2"
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "33723611ACD9CC5A"
+			tasks: [{
+				id: "260AAAFB9472256D"
+				item: {
+					Count: 1b
+					id: "modularrouters:sender_module_1"
+					tag: {
+						modularrouters: {
+							Direction: "NONE"
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["33723611ACD9CC5A"]
+			id: "5D6F2FE060E194F2"
+			tasks: [{
+				id: "2205EF40DD1EA8AE"
+				item: {
+					Count: 1b
+					id: "modularrouters:sender_module_2"
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5D6F2FE060E194F2"]
+			id: "1687E276E008616C"
+			tasks: [{
+				id: "56762E1DA32161F1"
+				item: {
+					Count: 1b
+					id: "modularrouters:sender_module_3"
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "01BD506F6A6300DC"
+			tasks: [
+				{
+					id: "4EA48CF99D7F83AB"
+					item: {
+						Count: 1b
+						id: "modularrouters:breaker_module"
+						tag: {
+							modularrouters: {
+								Direction: "NONE"
+								ModuleFilter: { }
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46A2ACE96CDD0F06"
+					item: {
+						Count: 1b
+						id: "modularrouters:placer_module"
+						tag: {
+							modularrouters: {
+								Direction: "NONE"
+								ModuleFilter: { }
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "2BDAF826D04111E5"
+			tasks: [{
+				id: "1A91AFC8BBD709AE"
+				item: {
+					Count: 1b
+					id: "modularrouters:activator_module"
+					tag: {
+						modularrouters: {
+							Direction: "NONE"
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "5E4D672C96CFB040"
+			tasks: [{
+				id: "4BACB41B1702A361"
+				item: {
+					Count: 1b
+					id: "modularrouters:fluid_module"
+					tag: {
+						modularrouters: {
+							Direction: "NONE"
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5E4D672C96CFB040"]
+			id: "11F63B0BF8AFB923"
+			tasks: [{
+				id: "79E8F7B66DDD68C1"
+				item: {
+					Count: 1b
+					id: "modularrouters:fluid_module_2"
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "5549E63A3BB59DFF"
+			tasks: [{
+				id: "112FFBD97E049044"
+				item: {
+					Count: 1b
+					id: "modularrouters:vacuum_module"
+					tag: {
+						modularrouters: {
+							Direction: "NONE"
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "1E15104F059D3A1D"
+			tasks: [{
+				id: "729B2666CBA32B83"
+				item: {
+					Count: 1b
+					id: "modularrouters:dropper_module"
+					tag: {
+						modularrouters: {
+							Direction: "NONE"
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "43A6BDA4BB1F6A78"
+			tasks: [{
+				id: "35C8B01AEEC64159"
+				item: {
+					Count: 1b
+					id: "modularrouters:flinger_module"
+					tag: {
+						modularrouters: {
+							Direction: "NONE"
+							ModuleFilter: { }
+							Pitch: 0.0f
+							Speed: 0.0f
+							Yaw: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7EACE878AFC97D37"]
+			id: "73294EA2C79CC698"
+			tasks: [{
+				id: "6091E92878CC7388"
+				item: {
+					Count: 1b
+					id: "modularrouters:distributor_module"
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -15.0d
+		}
+	]
+	title: "路由器"
+}

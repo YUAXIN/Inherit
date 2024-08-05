@@ -1,0 +1,440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1429F5187CE0913D"
+	group: "7088642807466B12"
+	icon: "extendedcrafting:the_ultimate_ingot"
+	id: "1429F5187CE0913D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A79043025DE2BA3"]
+			id: "79864FFF5DE502D2"
+			tasks: [{
+				id: "18359B8DC0A94AE0"
+				item: "occultism:chalk_red"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"366DCC8117581F82"
+				"3DE83E87D5215766"
+			]
+			id: "28CA97DA154B8A85"
+			tasks: [{
+				id: "75360B9789F86B4B"
+				item: "kubejs:undeveloped_ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28CA97DA154B8A85"]
+			id: "4EF7294BCB255D30"
+			tasks: [{
+				id: "69518F8A7DA67767"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AF4EB161E0F422D"]
+			id: "2C79260908353FF3"
+			tasks: [{
+				id: "11515A65DDDC1226"
+				item: "naturesaura:color_changer"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"380E65351D564C39"
+				"6D547950CEAB51B9"
+			]
+			id: "3ED66853FEF832F8"
+			tasks: [{
+				id: "1E659F74766D1A68"
+				item: {
+					Count: 1b
+					id: "naturesaura:infused_iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3ED66853FEF832F8"
+				"2C79260908353FF3"
+				"4EF7294BCB255D30"
+			]
+			description: ["放置冷凝器并通电后，召唤凋零，凋零就会冻结在上面"]
+			id: "6CD9BF7D0E0E5E5F"
+			rewards: [{
+				id: "5846BE9A6BD3B93A"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "41FC9F3609843D82"
+					item: "industrialforegoing:fluid_laser_base"
+					type: "item"
+				}
+				{
+					id: "691251CA37D456F0"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			title: "以太的获取"
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6CD9BF7D0E0E5E5F"]
+			id: "21E8DE6E5D3A32D7"
+			tasks: [{
+				id: "11E8FF7F6D1986B2"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["21E8DE6E5D3A32D7"]
+			id: "2F6C8B072A47A9C1"
+			tasks: [{
+				id: "4523534F7357AB6D"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F6C8B072A47A9C1"]
+			id: "1A9CF7C31057BEF4"
+			tasks: [{
+				id: "28532DEAA1F88991"
+				item: "elementalcraft:purecrystal"
+				type: "item"
+			}]
+			title: "更多的至纯水晶"
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A9CF7C31057BEF4"]
+			icon: "elementalcraft:pureinfuser"
+			id: "47229177F84A3A2D"
+			tasks: [
+				{
+					id: "10B4E02CB3ADCC77"
+					item: "elementalcraft:pureinfuser"
+					type: "item"
+				}
+				{
+					id: "0A554949017E4E7B"
+					item: "elementalcraft:pedestal_fire"
+					type: "item"
+				}
+				{
+					id: "421327865342556B"
+					item: "elementalcraft:pedestal_water"
+					type: "item"
+				}
+				{
+					id: "02DE267F63399267"
+					item: "elementalcraft:pedestal_air"
+					type: "item"
+				}
+				{
+					id: "2EDA1C219E1023FC"
+					item: "elementalcraft:pedestal_earth"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"47229177F84A3A2D"
+				"2F6C8B072A47A9C1"
+			]
+			id: "181C1E0A6038F1B2"
+			tasks: [{
+				id: "16B86B831B1F79E6"
+				item: "occultism:book_of_binding_marid"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["79864FFF5DE502D2"]
+			id: "18EAD70D7AD3ABFB"
+			tasks: [{
+				id: "41745A6841014DB5"
+				title: "仪式：修非斯倒转之塔"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"18EAD70D7AD3ABFB"
+				"181C1E0A6038F1B2"
+			]
+			id: "1C6C208E5327F8CE"
+			tasks: [{
+				id: "639D4D451EEF0A87"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1C6C208E5327F8CE"]
+			id: "27C83F29AA4C01B6"
+			tasks: [{
+				id: "10B5F8DA521EB3A9"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1DF39E1AE5DB8004"]
+			id: "7C626307AAB8EA39"
+			tasks: [{
+				id: "33A82D8718E82CAC"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C626307AAB8EA39"]
+			id: "6E785E35E83EFF69"
+			tasks: [{
+				id: "16706DEF05840BE0"
+				item: "kubejs:fire_essence_base"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C626307AAB8EA39"]
+			id: "3722E7A1A7304E49"
+			tasks: [{
+				id: "54B777440FEB8C7F"
+				item: "kubejs:water_essence_base"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C626307AAB8EA39"]
+			id: "51F24CA488AE439A"
+			tasks: [{
+				id: "2ECCF28F14D5CF93"
+				item: "kubejs:air_essence_base"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C626307AAB8EA39"]
+			id: "602732C6056B7A04"
+			tasks: [{
+				id: "1184B30A5F9E83DF"
+				item: "kubejs:earth_essence_base"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C626307AAB8EA39"]
+			id: "4E6410F36623230D"
+			tasks: [{
+				id: "21959AEA533B8CD5"
+				item: "kubejs:control_essence_base"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C626307AAB8EA39"]
+			id: "2D6E96DD4211E243"
+			tasks: [{
+				id: "1DD10D52F9EEFC45"
+				item: "kubejs:treat_essence_base"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C626307AAB8EA39"]
+			id: "199CA1808F60D58B"
+			tasks: [{
+				id: "7C6F7B48B749434A"
+				item: "kubejs:summon_essence_base"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E785E35E83EFF69"]
+			description: ["不要试图用盖亚收容罐来混淆视听，这是不可能的"]
+			id: "1B1357E433BA6C6D"
+			tasks: [{
+				id: "535BB50D83E2CEC7"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3722E7A1A7304E49"]
+			id: "750258942833D82D"
+			tasks: [{
+				id: "589E4B4A6DAA0630"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["602732C6056B7A04"]
+			id: "6A980E8BCDF5EA5D"
+			tasks: [{
+				id: "4EA937C009768E11"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51F24CA488AE439A"]
+			id: "3CDD884843A838DB"
+			tasks: [{
+				id: "6A1C2FA83924A66A"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E6410F36623230D"]
+			id: "63584022B5667FC2"
+			tasks: [{
+				id: "3306DD45C1B85B47"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D6E96DD4211E243"]
+			id: "773A62C7AC3C8415"
+			tasks: [{
+				id: "42209FAC3C68FD79"
+				item: "ars_nouveau:abjuration_essence"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["199CA1808F60D58B"]
+			id: "3CF30FCFCBAF0E88"
+			tasks: [{
+				id: "53EA5C1685C4A110"
+				item: "ars_nouveau:conjuration_essence"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"27C83F29AA4C01B6"
+				"3CF30FCFCBAF0E88"
+				"6A980E8BCDF5EA5D"
+				"63584022B5667FC2"
+				"3CDD884843A838DB"
+				"773A62C7AC3C8415"
+				"750258942833D82D"
+				"1B1357E433BA6C6D"
+			]
+			id: "1386536FA1775C1A"
+			tasks: [{
+				id: "6281D009635F4966"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1386536FA1775C1A"]
+			description: [
+				"恭喜你，走到了尽头。"
+				"感谢你的游玩"
+			]
+			id: "2DF76D881E855EB7"
+			rewards: [
+				{
+					id: "5D83B3A6828018BA"
+					item: "ae2:creative_item_cell"
+					type: "item"
+				}
+				{
+					id: "43357C17A3BD479B"
+					item: "ae2:cell_workbench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05587E1278414E41"
+				item: "kubejs:four_elephant_arrays"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+	]
+	title: "初触权能"
+}

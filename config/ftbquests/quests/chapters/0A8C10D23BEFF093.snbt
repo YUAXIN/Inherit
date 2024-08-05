@@ -1,0 +1,685 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0A8C10D23BEFF093"
+	group: "6B77C20D3C0D3C53"
+	icon: "botania:manasteel_ingot"
+	id: "0A8C10D23BEFF093"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5FED057431928AE8"
+				"27D3FB8B75BF9397"
+			]
+			id: "7F8C7924D548B6A5"
+			tasks: [{
+				id: "14D5DD9C998842A1"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["7F8C7924D548B6A5"]
+			id: "047DFDE284A67507"
+			tasks: [{
+				id: "76BF070BDF01AADA"
+				item: "kubejs:source_gem_precision_mechanism"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["7E25FEC33EC4C171"]
+			id: "0BA570E130DFA276"
+			tasks: [{
+				id: "22C91240D5C1F80D"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -21.5d
+		}
+		{
+			dependencies: [
+				"12F1B663955606A5"
+				"04B13920CE201C89"
+			]
+			id: "6BF4D4704440ECAD"
+			tasks: [{
+				id: "69E7D65F64E0C5D3"
+				item: "naturesaura:token_euphoria"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["2B6958AE00285A12"]
+			id: "44F7ACC591F11402"
+			tasks: [{
+				id: "4DDA3A7DF0FAE465"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -24.5d
+		}
+		{
+			dependencies: [
+				"44F7ACC591F11402"
+				"7BA98347CEA7ED6B"
+			]
+			id: "7AB2CC5F1C15CE2E"
+			tasks: [{
+				id: "77729A400E19F6FD"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["0BA570E130DFA276"]
+			id: "7BA98347CEA7ED6B"
+			tasks: [{
+				id: "4C2E50B7C6F55E6A"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["615B42F011776490"]
+			id: "6F3DC38D738ED7C6"
+			tasks: [{
+				id: "38452B8A7BBCB61C"
+				item: "mysticalagriculture:prosperity_block"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -29.0d
+		}
+		{
+			dependencies: [
+				"6F3DC38D738ED7C6"
+				"6F7B612D3544A887"
+			]
+			id: "41FD9F8C0C90F899"
+			tasks: [{
+				id: "684492701F0C66D3"
+				item: "mysticalagriculture:prosperity_ingot"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["6B78FB72DA690C20"]
+			id: "683A4400B541F11E"
+			tasks: [{
+				id: "124B48638B9AD10A"
+				item: "kubejs:undeveloped_basic_control_circuit"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["6F3DC38D738ED7C6"]
+			id: "6B78FB72DA690C20"
+			tasks: [{
+				id: "07560FA9658E9357"
+				item: "kubejs:control_circuit"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -29.0d
+		}
+		{
+			dependencies: [
+				"683A4400B541F11E"
+				"6D37BA176799ED4E"
+			]
+			description: ["科技还是魔法？谁在乎呢。他们要的只有结果"]
+			id: "2B6958AE00285A12"
+			tasks: [{
+				id: "2C2A443C079E0931"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["047DFDE284A67507"]
+			id: "12F1B663955606A5"
+			tasks: [
+				{
+					id: "352AA16D14249531"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "4B3922E5510B139D"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1AD9185502A5D40F"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: -31.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["047DFDE284A67507"]
+			id: "04B13920CE201C89"
+			tasks: [
+				{
+					id: "72AC5927D8AD7603"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "2E975CF63CFD2DAD"
+					item: "starbunclemania:fluid_sourcelink"
+					type: "item"
+				}
+				{
+					id: "01BA117D6F1F00BE"
+					item: "starbunclemania:source_fluid_bucket"
+					type: "item"
+				}
+			]
+			title: "魔源"
+			x: -32.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["047DFDE284A67507"]
+			description: ["拿魔源构件和紫物质块右键，那神秘的火焰也第一次展现了它的神秘面貌"]
+			icon: "occultism:spirit_fire"
+			id: "6D37BA176799ED4E"
+			tasks: [{
+				icon: "occultism:spirit_fire"
+				id: "2695DEDA8796D887"
+				observe_type: 0
+				timer: 0L
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			title: "诡异之火"
+			x: -30.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["44F7ACC591F11402"]
+			id: "7DE727D94B5DF8AE"
+			tasks: [{
+				id: "67C1A3F77D4C16BE"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["7DE727D94B5DF8AE"]
+			description: ["需要的铁板可以用焦铁来做哦"]
+			id: "3C9DF9EB2E58C2E9"
+			tasks: [{
+				id: "604AF1909710C778"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["3C9DF9EB2E58C2E9"]
+			id: "6F7B612D3544A887"
+			tasks: [{
+				id: "3298C97F18E62D45"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["6BF4D4704440ECAD"]
+			id: "7E25FEC33EC4C171"
+			rewards: [{
+				id: "541E48FEA132038B"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57AB9B427B5AA433"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["6D37BA176799ED4E"]
+			id: "11AB7305220BFE2D"
+			tasks: [{
+				id: "7968D8D0B762B359"
+				item: "malum:soul_stained_steel_ingot"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["44F7ACC591F11402"]
+			description: ["看起来正宗的树苗，是的，看起来"]
+			id: "25E5F19031927726"
+			tasks: [{
+				id: "40C9E6A95646F562"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -24.5d
+		}
+		{
+			dependencies: [
+				"41FD9F8C0C90F899"
+				"7AB2CC5F1C15CE2E"
+				"25E5F19031927726"
+			]
+			id: "784FE8491C944B80"
+			rewards: [
+				{
+					id: "6859881A25B3EB76"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					id: "7807AE19396B2604"
+					item: {
+						Count: 1b
+						id: "botania:lexicon"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BA8BAF31C4436FC"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["784FE8491C944B80"]
+			id: "6D30934968B311EF"
+			tasks: [{
+				id: "141F19319D4DF63C"
+				item: "botania:floating_pure_daisy"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -26.0d
+		}
+		{
+			dependencies: [
+				"6D30934968B311EF"
+				"2A87D229C19C2563"
+			]
+			description: ["温馨提示，做活石的不是魔源石"]
+			id: "54CA82B568F18D7D"
+			tasks: [{
+				id: "0DBCE765C522FEB2"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["41FD9F8C0C90F899"]
+			id: "2A87D229C19C2563"
+			tasks: [{
+				id: "55FDB492C6BB9906"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -27.5d
+		}
+		{
+			dependencies: [
+				"784FE8491C944B80"
+				"6D30934968B311EF"
+			]
+			id: "522C0BB59C01FB71"
+			tasks: [{
+				id: "01B9F819B0D1E37D"
+				item: "botania:floating_endoflame"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -24.5d
+		}
+		{
+			dependencies: ["54CA82B568F18D7D"]
+			id: "246D7C3F3A24999E"
+			tasks: [{
+				id: "36B7BAAB38D11A47"
+				item: "kubejs:livingrock_mechanism"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["246D7C3F3A24999E"]
+			description: ["根据历史记载，第一个魔力发射器需要魔力灌溉，既然你没有魔力，看到你手上这朵莲花了吗，拿着它右键稀释魔力池，原本的稀释魔力池会被销毁，而你身上会多一个有着100点魔力的魔力池，不要拿它来做别的，做那个魔力发射器！"]
+			id: "74DD521CEE2A70F1"
+			rewards: [{
+				id: "5BB234B801CC6103"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "603A28ED608AD43E"
+				item: "botania:diluted_pool"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["246D7C3F3A24999E"]
+			id: "72BF4AA2F4449349"
+			tasks: [{
+				id: "7D579611CF1593E5"
+				item: "botania:apothecary_livingrock"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["6D30934968B311EF"]
+			id: "7DAB788D92900642"
+			tasks: [{
+				id: "28590EE3771C2E72"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -24.5d
+		}
+		{
+			dependencies: [
+				"74DD521CEE2A70F1"
+				"7DAB788D92900642"
+			]
+			id: "3BFF3C9172EDEF06"
+			tasks: [{
+				id: "437DDEA1508563A9"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["3BFF3C9172EDEF06"]
+			description: ["为什么送你煎锅？看看配方"]
+			id: "6A78994F362632F7"
+			rewards: [{
+				id: "4D38B458DBAE4F9E"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2065F5D51A517FC7"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -24.5d
+		}
+		{
+			dependencies: [
+				"74DD521CEE2A70F1"
+				"6A78994F362632F7"
+			]
+			description: ["一个更大的魔力存储（bushi）"]
+			id: "6ED07ACFD1FCD791"
+			tasks: [{
+				id: "3921F5942C2F5FDC"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["7AB2CC5F1C15CE2E"]
+			id: "727941A50D750A0C"
+			tasks: [{
+				id: "7FCF2117371344AA"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"727941A50D750A0C"
+				"7DAB788D92900642"
+			]
+			id: "3B86716882D90CFE"
+			tasks: [{
+				id: "7C6567E17F1A936B"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["3B86716882D90CFE"]
+			description: ["加了NBT，所以不要投机取巧了"]
+			id: "01AC15850FAE52B0"
+			tasks: [{
+				id: "721E0E7C6005AA42"
+				item: "kubejs:undeveloped_advanced_control_circuit"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["01AC15850FAE52B0"]
+			id: "5CE9B834C7AD2070"
+			tasks: [{
+				id: "5B8C07016D26CF6C"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -21.5d
+		}
+		{
+			dependencies: [
+				"3B86716882D90CFE"
+				"6A78994F362632F7"
+			]
+			id: "7742A881B6585A96"
+			tasks: [
+				{
+					id: "44CE8A3833056C9F"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "291DE220F186BF95"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "粉碎的魔力钢"
+			x: -21.5d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"7742A881B6585A96"
+				"5CE9B834C7AD2070"
+			]
+			id: "54040A8DB36146A6"
+			tasks: [{
+				id: "72CE8B8AC9438AF1"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["7742A881B6585A96"]
+			description: ["或许你不用在坚持那该死的仪式了，你只要想办法让它转化成灵魂石就行"]
+			id: "3B7AE6BD27D21C46"
+			rewards: [{
+				id: "5E6F8A4B670F37B0"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B87A98EB04ACD6E"
+				item: "malum:block_of_raw_soulstone"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["784FE8491C944B80"]
+			description: ["经过灵火熏染的法杖失去了原本的魔力，但似乎与另一个维度产生了微妙的联系"]
+			id: "16264636DFE71824"
+			tasks: [{
+				id: "785C19E34A39B5FA"
+				item: "kubejs:un_twig_wand"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["16264636DFE71824"]
+			id: "5257AEDE6AA25527"
+			tasks: [{
+				id: "5F557BA062C1DA3A"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"5257AEDE6AA25527"
+				"7BA98347CEA7ED6B"
+				"7AB2CC5F1C15CE2E"
+			]
+			id: "2DCFA29C97809EF6"
+			tasks: [{
+				id: "0468ECF2BD3CEAF6"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["7BA98347CEA7ED6B"]
+			id: "3D4D12BDCB5F4A86"
+			tasks: [{
+				id: "002BFDEB3D3FF0D8"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["7742A881B6585A96"]
+			id: "05CB7C967CF25EC5"
+			tasks: [{
+				id: "1CC1D0746A687719"
+				item: "mysticalagriculture:prosperity_gemstone_block"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["6ED07ACFD1FCD791"]
+			id: "0ABF302EC27A1CC9"
+			tasks: [{
+				id: "59F80D92E7F3CE6F"
+				item: "thermal:steel_plate"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["0ABF302EC27A1CC9"]
+			id: "67A7DDE855E28A28"
+			tasks: [{
+				id: "5117FC7F1DF56C43"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["6A78994F362632F7"]
+			id: "133ED0FD279BD354"
+			tasks: [{
+				id: "3F32328CFAD828CA"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -23.0d
+		}
+	]
+	title: "于梦彼岸，碎星为光"
+}
